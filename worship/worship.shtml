@@ -1,4 +1,4 @@
-<!--#include virtual="/template.html"-->
+<div w3-include-html="/template.html"></div>
 
 	<div id="main" align="justify">
 		<h2>Places</h2>
