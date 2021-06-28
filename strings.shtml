@@ -1,0 +1,52 @@
+<!--#include virtual="/template.html"-->
+
+	<div id="main" align="justify">
+		<h2>About String Theory</h2>
+<a href="index.shtml">(back)</a>
+<br>
+String Theory is, above all a <b>Quantum Theory of Gravity</b>. So we need to briefly describe
+what is a Quantum Theory, and what is Gravity. These two are the most important fundamental theories of the 20th century,
+both nicely applicable to many different phenomena, but both waiting since they were settled to become compatible under
+a more general framework.
+<br>
+<br>
+Gravity is the theory that describes the way masses (or energy in general) atract other masses. The best formulation
+available at moment is still Einstein's General Theory of Relativity, dating back to 1916. Einstein's theory
+relates the effect of gravity interaction to spacetime curvature (<i>grosso modo</i>, masses attract because
+they curve the space around them, and then all bodies follow descend paths in this curved space). Gravity can be successfully
+applied to large scale situations, like planets orbiting the sun, Galaxies and even to the whole universe (recall that
+the Big Bang is a prediction of General Relativity).
+<br>
+<br>
+Quantum mechanics typically applies to much smaller scales, from atoms to nuclei, to subnuclear physics. Despite being
+formulated as a general framework (rather than as being tied to specific interactions), it has proven amazingly useful
+to describe the other three interactions we know in Nature: electromagnetic, weak nuclear interaction, and strong nuclear interaction.
+You can read all sorts of paradoxes, weird predictions, and counter-intuitive phenomena that lie at the very definition
+of Quantum Mechanics... but, man, they are all true (won't enter into a phylosophical discussion of how to define <i>true</i>,
+but let me just point out a fact that quantifies its quantity of <i>truth</i>: it is capable of predicting that a certain
+property you can measure about an electron is whatever number with <a href="http://en.wikipedia.org/wiki/Gyromagnetic_ratio">twelve</a> decimal digits right!).
+<br>
+<br>
+The problem with these two theories is that they themselves are capable of telling you that there's something
+wrong with them when put together. And unfortunately, you need to put them together sometimes, specially when you
+want to ask questions like 'what happened in the Big Bang?' or 'what happens to Black holes when they evaporate'
+or even 'what is all this dark matter we cannot see that makes the universe expand every time faster?'.
+<br>
+<br>
+Thus, the problem of <i>unification</i> of both theories is perhaps the major one in physics today. Here's where String Theory
+appears, as one of the most solid candidates for unification. Indeed, it is the only candidate that has proven mathematical 
+consistency when unifying them (at least in what is called perturbation theory, with good indications that consistency
+holds beyond this regime). Thus String Theory has turned a bit the problem of 'look  for a theory' into a problem
+of 'solve this particular theory at least enough to answer my questions'. And that's still where we are, trying to extract
+the answers from a vast theory that requires better tools to find them...
+</div>
+<br>
+
+
+	<div id="footer"></div>
+
+
+
+</div>
+</body>
+</html>

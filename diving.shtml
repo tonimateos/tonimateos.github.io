@@ -1,0 +1,50 @@
+<!--#include virtual="/template.html"-->
+
+
+	<div id="main">
+	<h2>Diving</h2>
+	
+<!--	<br>
+	<h3> Voyage to the <font color="red"> Red Sea </font> </h3>
+	
+	
+		This is a presentation about a Scuba Diving trip to the Egyptian part of the <b><font color="red">Red Sea</font></b>,
+		April 2004.
+		You can download it <a href="http://www.tonimateos.co.uk/RedSeaInstall.exe">here</a> (28 MB).
+		You will need Powerpoint and Windows to see it (my deepest apologies to the Linux users)
+	
+	<br>
+	<br>
+	<h3> Extreme Diving in the <font color="red"> Maldives </font> </h3>
+	
+	
+		Based on the diving safari on board of the <b> Southern Cross</b>.
+-->	
+	<ul>
+		<li>
+		<a href="maldives/extreme.shtml">Definition</a> of Extreme Diving.
+		</li>
+		<li>
+		The first <a href="maldives/index.shtml">extreme divers</a>.
+		</li>
+		<li>
+		<a href="http://www.archive.org/download/ToniMateosJudithsbriefing/MOV00885.MPG">Briefing</a> by Judith, before diving a <i>corner</i>.
+		</li>
+<!--		<li>
+		<a href="http://www.fargnoli.org/maldives/">Photographs</a> taken by Enric Fargnoli.
+		</li>
+-->
+		<li> <a href="http://www.archive.org/download/ToniPouandToniMateos/all.mpg">Videos</a> taken by Toni Pou (80 MB).
+		Very <a href="http://video.google.com/videoplay?docid=7226765637144897327">poor quality</a> version (0.6 MB).
+		</li>
+	</ul>
+	
+	</div>
+
+	<div id="footer"></div>
+
+</div>
+</body>
+</html>	
+	
+

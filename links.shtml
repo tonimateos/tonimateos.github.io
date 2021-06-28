@@ -1,0 +1,30 @@
+<!--#include virtual="/template.html"-->
+
+	<div id="main" align="justify">
+	<h2>Links</h2>
+	<ul> 
+	
+		<li>Fun from 2009: Interview at <b><i>Radio Sants</i></b> for the science-humour program <i>Pa ciencia la nostra</i>.
+			Part using 3D audio: starts at 1'30". <b>use headphones!</b> (click <a href="http://paciencialanostra.blogspot.com/2009/05/programa-40-19-iv-2009.html">here</a> for the complete interview)
+
+		<ul>
+<iframe width="100%" height="100" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/193558307&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true"></iframe>
+		</ul>
+		<li>Human Synthesizers:</li>	
+		<ul>
+			<li> <a href="http://www.youtube.com/watch?v=59ZX5qdIEB0">Flute - Drums synthesizer</a>
+			<li> <a href="http://www.youtube.com/watch?v=UE5QyPc2Qng&feature=player_embedded#">Guitar synthesizer</a>
+			<li> <a href="https://www.youtube.com/watch?v=2HROMPdsLXw">BeatBox synthesizer</a>
+		</ul>
+		<li> The best gypsy jazz bar in London, <a href="http://www.quecumbar.co.uk">here</a>. </li>
+		<li> The only cinema critics page (kind of) aligned with many of my opinions:  <a href="http://www.rottentomatoes.com/movies/">Rotten Tomatoes</a>. </li>
+		<li> Spherical harmonics in terms of cartesian coordinates: <a href="Files/spherical_harmonics.pdf">here</a>.  </li>
+	
+	</ul> 
+	</div>	
+
+
+	<div id="footer">	</div>
+
+</body>
+</html>
