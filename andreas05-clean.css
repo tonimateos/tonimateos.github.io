@@ -7,7 +7,7 @@ For more information, see http://andreasviklund.com/templates/andreas05/
 * {margin:0; padding:0;}
 /*body {background:#cccccc url(bodybg.gif) repeat; font:76% verdana,tahoma,sans-serif; color:#555555;}*/
 /*body {background-color:#696969; font:71% Geneva,sans-serif; color:#555555;}*/ /*pb with font*/
-body {background-color:#727272; background-image: url(/images/mantaray.jpg); background-size: 100%; font:74% verdana,tahoma,sans-serif; color:#555555;}
+body {background-color:#727272; background-image: url(./images/mantaray.jpg); background-size: 100%; font:74% verdana,tahoma,sans-serif; color:#555555;}
 a {background-color:inherit; color:#286ea0; font-weight:normal; text-decoration:none;}
 a:hover {text-decoration:underline;}
 p {margin:0 0 16px 0;}
