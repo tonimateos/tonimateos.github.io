@@ -1,8 +1,9 @@
-mkdir -p tmp
+rm -rf tmp
+mkdir tmp
 for f in src/*;
     do echo ${f}
     cp template.html tmp/$(basename ${f})
-    echo ${f} >> tmp/$(basename ${f})
+    cat ${f} >> tmp/$(basename ${f})
     cp tmp/$(basename ${f}) $(basename ${f})
 done
 rm -rf tmp
