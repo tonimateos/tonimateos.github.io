@@ -1,91 +1,111 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<!DOCTYPE html>
+<html lang="en">
 <head>
-	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
-	<meta name="description" content="your description goes here" />
-	<meta name="keywords" content="your,keywords,goes,here" />
-	<meta name="author" content="Toni Mateos / Original design: Andreas Viklund - http://andreasviklund.com/" />
-	<link rel="stylesheet" type="text/css" href="./andreas05-clean.css" />
-	<title>Toni Mateos Homepage</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Toni Mateos - Personal Website">
+    <meta name="author" content="Toni Mateos">
+    <title>Toni Mateos</title>
+    
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Icons (optional, using simple CSS shapes/unicode or SVG if needed later, keeping it light for now) -->
 
-<script type="text/javascript">
-
-  var _gaq = _gaq || [];
-  _gaq.push(['_setAccount', 'UA-183416-6']);
-  _gaq.push(['_trackPageview']);
-
-  (function() {
-    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-  })();
-
-</script>
-
+    <!-- Styles -->
+    <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
-<div id="title"><h1>Toni Mateos</h1></div>
-<div id="container">
-	<div id="sidebar">
-		<p><img src="./images/DSC00252_v1.jpg" width="100" alt="Portrait" /></p>
-		<br /><br /><br /><br /><br /><br /><br />
-		<a class="menu" href="./index.html">Home</a>
-		<a class="menu">Hobbies</a>
-		<ul>
-			<a class="menu" href="./diving.html">Diving</a>
-			<a class="menu" href="./worship.html">Places</a>
-		</ul>
+    <div class="app-container">
+        <header class="main-header">
+            <div class="logo">
+                <a href="index.html"><h1>Toni Mateos</h1></a>
+            </div>
+            <nav class="main-nav">
+                <a href="index.html" class="nav-link">Home</a>
+                <!-- <a href="#" class="nav-link">Hobbies</a> -->
+                <div class="dropdown">
+                    <span class="nav-link dropdown-trigger">Hobbies ▾</span>
+                    <div class="dropdown-content">
+                        <a href="diving.html">Diving</a>
+                        <a href="worship.html">Places</a>
+                    </div>
+                </div>
+            </nav>
+            <div class="mobile-menu-toggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </header>
 
-		<br /><br /><br /><br /><br /><br /><br />
-		<p>This is a proud<br />
-			web 1.0 page!
-		</p>
+        <main class="content-wrapper">
+<h2>My first published book</h2>
+<hr>
+<br>
 
-		<br /><br /><br /><br /><br /><br /><br />
-		<p>Template:<br />
-		<a href="http://andreasviklund.com/">Andreas Viklund</a>
-		</p>
+<b>Title:</b> <i> Autobiografía de un hombre con amnesia </i>
+
+<br>
+<br>
+
+<b>Text:</b> all pages are in blank.
+<br>
+<br>
+
+<b>Backcover:</b>
+<br>
+<br>
+
+
+"Tras despertar de un número indeterminado de días, Ilya Kutnesov, nombre inventado por el personaje de este libro, se
+da cuenta de que sufre una amnesia total. Desconcertado, se abalanza hacia un paquete de folios en blanco, y empieza un
+relato apasionado y fidedigno de toda su vida, de la cual no recuerda absolutamente nada. A través de más de 150 páginas
+en blanco, describe con minuciosa precisión todos y cada uno de los momentos que más le han marcado, los amores, el
+sufrimiento, el vacío existencial... Termina, finalmente, plasmando los únicos instantes que sí recuerda en la
+contraportada de este libro."
+
+<br>
+<br>
+
+<ul>
+	<li>
+		Ilya Kutnesov rompió esquemas literarios con esta emotiva novela autobiográfica. Su extraño formato se adapta
+		perfectamente a la situación, y consigue trasmitir la agonía de un hombre sin recuerdos de manera convincente,
+		situando al lector directamente en el alma de Ilya. El nuevo formato se popularizó inmediatamente tras la
+		primera edición de este libro, y ahora es conocido como "Contralibro", en inglés "Backbooks", o libros que sólo
+		constan de portada y contraportada. En el último Sundace Backbook Festival'2010, se presentaron más de 15 mil
+		ejemplares, y se homenajeó a Ilya por su arriesgada aportación.
+	</li>
+	<br>
+
+	<li><i>Marvellous, awesome. A story told many times before, but never so originally </i> -- New York Times</li>
+	<li><i>A very risky innovation in literature. A new form of expression on its own </i> -- The Guardian</li>
+	<li><i>Funny but deep, Ilya becomes unwantedly the new Quijote of the 21st century </i> -- G.G. Márquez </li>
+</ul></main>
+
+<footer class="main-footer">
+    <div class="footer-content">
+        <p>&copy;
+            <script>document.write(new Date().getFullYear())</script> Toni Mateos
+        </p>
+        <div class="social-links">
+            <a href="https://www.linkedin.com/in/tonimateos/" target="_blank">LinkedIn</a>
+            <a href="https://twitter.com/tmateos" target="_blank">Twitter</a>
+            <a href="https://github.com/tonimateos" target="_blank">GitHub</a>
+        </div>
+    </div>
+</footer>
 </div>
-	<div id="main" align="left">
-	<h2>My first published book</h2>  
-	<hr>
-	<br>
-	
-	<b>Title:</b> <i> Autobiografía de un hombre con amnesia </i>
-	
-	<br>
-	<br>
-	
-	<b>Text:</b> all pages are in blank.
-	<br>
-	<br>
-	
-	<b>Backcover:</b>
-	<br>
-	<br>
-	
-	
-	"Tras despertar de un número indeterminado de días, Ilya Kutnesov, nombre inventado por el personaje de este libro, se da cuenta de que sufre una amnesia total. Desconcertado, se abalanza hacia un paquete de folios en blanco, y empieza un relato apasionado y fidedigno de toda su vida, de la cual no recuerda absolutamente nada. A través de más de 150 páginas en blanco, describe con minuciosa precisión todos y cada uno de los momentos que más le han marcado, los amores, el sufrimiento, el vacío existencial... Termina, finalmente, plasmando los únicos instantes que sí recuerda en la contraportada de este libro."
-	
-	<br>
-	<br>
-	
-	<ul>
-		<li>
-		Ilya Kutnesov rompió esquemas literarios con esta emotiva novela autobiográfica. Su extraño formato se adapta perfectamente a la situación, y consigue trasmitir la agonía de un hombre sin recuerdos de manera convincente, situando al lector directamente en el alma de Ilya. El nuevo formato se popularizó inmediatamente tras la primera edición de este libro, y ahora es conocido como "Contralibro", en inglés "Backbooks", o libros que sólo constan de portada y contraportada. En el último Sundace Backbook Festival'2010, se presentaron más de 15 mil ejemplares, y se homenajeó a Ilya por su arriesgada aportación.
-		</li>
-		<br>
-		
-		<li><i>Marvellous, awesome. A story told many times before, but never so originally </i> -- New York Times</li>
-		<li><i>A very risky innovation in literature. A new form of expression on its own </i> -- The Guardian</li>
-		<li><i>Funny but deep, Ilya becomes unwantedly the new Quijote of the 21st century </i> -- G.G. Márquez </li>
-	</ul>
 
-	</div>	
-
-
-	<div id="footer">	</div>
-
+<!-- Mobile Menu Script -->
+<script>
+    document.querySelector('.mobile-menu-toggle').addEventListener('click', function () {
+        document.querySelector('.main-nav').classList.toggle('active');
+    });
+</script>
 </body>
+
 </html>

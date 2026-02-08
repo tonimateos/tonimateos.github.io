@@ -1,58 +1,53 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<!DOCTYPE html>
+<html lang="en">
 <head>
-	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
-	<meta name="description" content="your description goes here" />
-	<meta name="keywords" content="your,keywords,goes,here" />
-	<meta name="author" content="Toni Mateos / Original design: Andreas Viklund - http://andreasviklund.com/" />
-	<link rel="stylesheet" type="text/css" href="./andreas05-clean.css" />
-	<title>Toni Mateos Homepage</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Toni Mateos - Personal Website">
+    <meta name="author" content="Toni Mateos">
+    <title>Toni Mateos</title>
+    
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Icons (optional, using simple CSS shapes/unicode or SVG if needed later, keeping it light for now) -->
 
-<script type="text/javascript">
-
-  var _gaq = _gaq || [];
-  _gaq.push(['_setAccount', 'UA-183416-6']);
-  _gaq.push(['_trackPageview']);
-
-  (function() {
-    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-  })();
-
-</script>
-
+    <!-- Styles -->
+    <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
-<div id="title"><h1>Toni Mateos</h1></div>
-<div id="container">
-	<div id="sidebar">
-		<p><img src="./images/DSC00252_v1.jpg" width="100" alt="Portrait" /></p>
-		<br /><br /><br /><br /><br /><br /><br />
-		<a class="menu" href="./index.html">Home</a>
-		<a class="menu">Hobbies</a>
-		<ul>
-			<a class="menu" href="./diving.html">Diving</a>
-			<a class="menu" href="./worship.html">Places</a>
-		</ul>
+    <div class="app-container">
+        <header class="main-header">
+            <div class="logo">
+                <a href="index.html"><h1>Toni Mateos</h1></a>
+            </div>
+            <nav class="main-nav">
+                <a href="index.html" class="nav-link">Home</a>
+                <!-- <a href="#" class="nav-link">Hobbies</a> -->
+                <div class="dropdown">
+                    <span class="nav-link dropdown-trigger">Hobbies ▾</span>
+                    <div class="dropdown-content">
+                        <a href="diving.html">Diving</a>
+                        <a href="worship.html">Places</a>
+                    </div>
+                </div>
+            </nav>
+            <div class="mobile-menu-toggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </header>
 
-		<br /><br /><br /><br /><br /><br /><br />
-		<p>This is a proud<br />
-			web 1.0 page!
-		</p>
-
-		<br /><br /><br /><br /><br /><br /><br />
-		<p>Template:<br />
-		<a href="http://andreasviklund.com/">Andreas Viklund</a>
-		</p>
-</div>
-	<div id="main" align="justify">
-		<h2>About String Theory</h2>
+        <main class="content-wrapper">
+<h2>About String Theory</h2>
 <a href="index.html">(back)</a>
 <br>
 String Theory is, above all a <b>Quantum Theory of Gravity</b>. So we need to briefly describe
-what is a Quantum Theory, and what is Gravity. These two are the most important fundamental theories of the 20th century,
+what is a Quantum Theory, and what is Gravity. These two are the most important fundamental theories of the 20th
+century,
 both nicely applicable to many different phenomena, but both waiting since they were settled to become compatible under
 a more general framework.
 <br>
@@ -60,18 +55,23 @@ a more general framework.
 Gravity is the theory that describes the way masses (or energy in general) atract other masses. The best formulation
 available at moment is still Einstein's General Theory of Relativity, dating back to 1916. Einstein's theory
 relates the effect of gravity interaction to spacetime curvature (<i>grosso modo</i>, masses attract because
-they curve the space around them, and then all bodies follow descend paths in this curved space). Gravity can be successfully
+they curve the space around them, and then all bodies follow descend paths in this curved space). Gravity can be
+successfully
 applied to large scale situations, like planets orbiting the sun, Galaxies and even to the whole universe (recall that
 the Big Bang is a prediction of General Relativity).
 <br>
 <br>
 Quantum mechanics typically applies to much smaller scales, from atoms to nuclei, to subnuclear physics. Despite being
 formulated as a general framework (rather than as being tied to specific interactions), it has proven amazingly useful
-to describe the other three interactions we know in Nature: electromagnetic, weak nuclear interaction, and strong nuclear interaction.
+to describe the other three interactions we know in Nature: electromagnetic, weak nuclear interaction, and strong
+nuclear interaction.
 You can read all sorts of paradoxes, weird predictions, and counter-intuitive phenomena that lie at the very definition
-of Quantum Mechanics... but, man, they are all true (won't enter into a phylosophical discussion of how to define <i>true</i>,
-but let me just point out a fact that quantifies its quantity of <i>truth</i>: it is capable of predicting that a certain
-property you can measure about an electron is whatever number with <a href="http://en.wikipedia.org/wiki/Gyromagnetic_ratio">twelve</a> decimal digits right!).
+of Quantum Mechanics... but, man, they are all true (won't enter into a phylosophical discussion of how to define
+<i>true</i>,
+but let me just point out a fact that quantifies its quantity of <i>truth</i>: it is capable of predicting that a
+certain
+property you can measure about an electron is whatever number with <a
+	href="http://en.wikipedia.org/wiki/Gyromagnetic_ratio">twelve</a> decimal digits right!).
 <br>
 <br>
 The problem with these two theories is that they themselves are capable of telling you that there's something
@@ -80,20 +80,36 @@ want to ask questions like 'what happened in the Big Bang?' or 'what happens to 
 or even 'what is all this dark matter we cannot see that makes the universe expand every time faster?'.
 <br>
 <br>
-Thus, the problem of <i>unification</i> of both theories is perhaps the major one in physics today. Here's where String Theory
-appears, as one of the most solid candidates for unification. Indeed, it is the only candidate that has proven mathematical 
+Thus, the problem of <i>unification</i> of both theories is perhaps the major one in physics today. Here's where String
+Theory
+appears, as one of the most solid candidates for unification. Indeed, it is the only candidate that has proven
+mathematical
 consistency when unifying them (at least in what is called perturbation theory, with good indications that consistency
-holds beyond this regime). Thus String Theory has turned a bit the problem of 'look  for a theory' into a problem
-of 'solve this particular theory at least enough to answer my questions'. And that's still where we are, trying to extract
-the answers from a vast theory that requires better tools to find them...
+holds beyond this regime). Thus String Theory has turned a bit the problem of 'look for a theory' into a problem
+of 'solve this particular theory at least enough to answer my questions'. And that's still where we are, trying to
+extract
+the answers from a vast theory that requires better tools to find them...</main>
+
+<footer class="main-footer">
+    <div class="footer-content">
+        <p>&copy;
+            <script>document.write(new Date().getFullYear())</script> Toni Mateos
+        </p>
+        <div class="social-links">
+            <a href="https://www.linkedin.com/in/tonimateos/" target="_blank">LinkedIn</a>
+            <a href="https://twitter.com/tmateos" target="_blank">Twitter</a>
+            <a href="https://github.com/tonimateos" target="_blank">GitHub</a>
+        </div>
+    </div>
+</footer>
 </div>
-<br>
 
-
-	<div id="footer"></div>
-
-
-
-</div>
+<!-- Mobile Menu Script -->
+<script>
+    document.querySelector('.mobile-menu-toggle').addEventListener('click', function () {
+        document.querySelector('.main-nav').classList.toggle('active');
+    });
+</script>
 </body>
+
 </html>

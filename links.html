@@ -1,77 +1,93 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<!DOCTYPE html>
+<html lang="en">
 <head>
-	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
-	<meta name="description" content="your description goes here" />
-	<meta name="keywords" content="your,keywords,goes,here" />
-	<meta name="author" content="Toni Mateos / Original design: Andreas Viklund - http://andreasviklund.com/" />
-	<link rel="stylesheet" type="text/css" href="./andreas05-clean.css" />
-	<title>Toni Mateos Homepage</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Toni Mateos - Personal Website">
+    <meta name="author" content="Toni Mateos">
+    <title>Toni Mateos</title>
+    
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Icons (optional, using simple CSS shapes/unicode or SVG if needed later, keeping it light for now) -->
 
-<script type="text/javascript">
-
-  var _gaq = _gaq || [];
-  _gaq.push(['_setAccount', 'UA-183416-6']);
-  _gaq.push(['_trackPageview']);
-
-  (function() {
-    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-  })();
-
-</script>
-
+    <!-- Styles -->
+    <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
-<div id="title"><h1>Toni Mateos</h1></div>
-<div id="container">
-	<div id="sidebar">
-		<p><img src="./images/DSC00252_v1.jpg" width="100" alt="Portrait" /></p>
-		<br /><br /><br /><br /><br /><br /><br />
-		<a class="menu" href="./index.html">Home</a>
-		<a class="menu">Hobbies</a>
+    <div class="app-container">
+        <header class="main-header">
+            <div class="logo">
+                <a href="index.html"><h1>Toni Mateos</h1></a>
+            </div>
+            <nav class="main-nav">
+                <a href="index.html" class="nav-link">Home</a>
+                <!-- <a href="#" class="nav-link">Hobbies</a> -->
+                <div class="dropdown">
+                    <span class="nav-link dropdown-trigger">Hobbies ▾</span>
+                    <div class="dropdown-content">
+                        <a href="diving.html">Diving</a>
+                        <a href="worship.html">Places</a>
+                    </div>
+                </div>
+            </nav>
+            <div class="mobile-menu-toggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </header>
+
+        <main class="content-wrapper">
+<h2>Links</h2>
+<ul>
+
+	<li>Fun from 2009: Interview at <b><i>Radio Sants</i></b> for the science-humour program <i>Pa ciencia la
+			nostra</i>.
+		Part using 3D audio: starts at 1'30". <b>use headphones!</b> (click <a
+			href="http://paciencialanostra.blogspot.com/2009/05/programa-40-19-iv-2009.html">here</a> for the complete
+		interview)
+
 		<ul>
-			<a class="menu" href="./diving.html">Diving</a>
-			<a class="menu" href="./worship.html">Places</a>
+			<iframe width="100%" height="100" scrolling="no" frameborder="no"
+				src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/193558307&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true"></iframe>
 		</ul>
+	<li>Human Synthesizers:</li>
+	<ul>
+		<li> <a href="http://www.youtube.com/watch?v=59ZX5qdIEB0">Flute - Drums synthesizer</a>
+		<li> <a href="http://www.youtube.com/watch?v=UE5QyPc2Qng&feature=player_embedded#">Guitar synthesizer</a>
+		<li> <a href="https://www.youtube.com/watch?v=2HROMPdsLXw">BeatBox synthesizer</a>
+	</ul>
+	<li> The best gypsy jazz bar in London, <a href="http://www.quecumbar.co.uk">here</a>. </li>
+	<li> The only cinema critics page (kind of) aligned with many of my opinions: <a
+			href="http://www.rottentomatoes.com/movies/">Rotten Tomatoes</a>. </li>
+	<li> Spherical harmonics in terms of cartesian coordinates: <a href="Files/spherical_harmonics.pdf">here</a>. </li>
 
-		<br /><br /><br /><br /><br /><br /><br />
-		<p>This is a proud<br />
-			web 1.0 page!
-		</p>
+</ul></main>
 
-		<br /><br /><br /><br /><br /><br /><br />
-		<p>Template:<br />
-		<a href="http://andreasviklund.com/">Andreas Viklund</a>
-		</p>
+<footer class="main-footer">
+    <div class="footer-content">
+        <p>&copy;
+            <script>document.write(new Date().getFullYear())</script> Toni Mateos
+        </p>
+        <div class="social-links">
+            <a href="https://www.linkedin.com/in/tonimateos/" target="_blank">LinkedIn</a>
+            <a href="https://twitter.com/tmateos" target="_blank">Twitter</a>
+            <a href="https://github.com/tonimateos" target="_blank">GitHub</a>
+        </div>
+    </div>
+</footer>
 </div>
-	<div id="main" align="justify">
-	<h2>Links</h2>
-	<ul> 
-	
-		<li>Fun from 2009: Interview at <b><i>Radio Sants</i></b> for the science-humour program <i>Pa ciencia la nostra</i>.
-			Part using 3D audio: starts at 1'30". <b>use headphones!</b> (click <a href="http://paciencialanostra.blogspot.com/2009/05/programa-40-19-iv-2009.html">here</a> for the complete interview)
 
-		<ul>
-<iframe width="100%" height="100" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/193558307&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true"></iframe>
-		</ul>
-		<li>Human Synthesizers:</li>	
-		<ul>
-			<li> <a href="http://www.youtube.com/watch?v=59ZX5qdIEB0">Flute - Drums synthesizer</a>
-			<li> <a href="http://www.youtube.com/watch?v=UE5QyPc2Qng&feature=player_embedded#">Guitar synthesizer</a>
-			<li> <a href="https://www.youtube.com/watch?v=2HROMPdsLXw">BeatBox synthesizer</a>
-		</ul>
-		<li> The best gypsy jazz bar in London, <a href="http://www.quecumbar.co.uk">here</a>. </li>
-		<li> The only cinema critics page (kind of) aligned with many of my opinions:  <a href="http://www.rottentomatoes.com/movies/">Rotten Tomatoes</a>. </li>
-		<li> Spherical harmonics in terms of cartesian coordinates: <a href="Files/spherical_harmonics.pdf">here</a>.  </li>
-	
-	</ul> 
-	</div>	
-
-
-	<div id="footer">	</div>
-
+<!-- Mobile Menu Script -->
+<script>
+    document.querySelector('.mobile-menu-toggle').addEventListener('click', function () {
+        document.querySelector('.main-nav').classList.toggle('active');
+    });
+</script>
 </body>
+
 </html>
