@@ -3,7 +3,8 @@
     --card-bg: rgba(255, 255, 255, 0.05);
     --text-primary: #f0f0f0;
     --text-secondary: #a0a0a0;
-    --accent-color: #00bcd4; /* Cyan/Teal accent */
+    --accent-color: #00bcd4;
+    /* Cyan/Teal accent */
     --accent-hover: #00acc1;
     --font-main: 'Inter', sans-serif;
     --max-width: 900px;
@@ -87,7 +88,7 @@ a:hover {
     position: absolute;
     background-color: #2a2a2a;
     min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
     z-index: 1;
     border-radius: 8px;
     padding: 0.5rem 0;
@@ -230,4 +231,19 @@ iframe {
         gap: 1rem;
         text-align: center;
     }
+}
+
+/* YouTube Icon */
+.youtube-icon {
+    vertical-align: middle;
+    color: #FF0000;
+    margin: 0 4px;
+    width: 24px;
+    height: 24px;
+    display: inline-block;
+    transition: transform 0.2s ease;
+}
+
+a:hover .youtube-icon {
+    transform: scale(1.1);
 }
