@@ -244,6 +244,22 @@ iframe {
     transition: transform 0.2s ease;
 }
 
+
 a:hover .youtube-icon {
+    transform: scale(1.1);
+}
+
+/* LinkedIn Icon */
+.linkedin-icon {
+    vertical-align: middle;
+    color: #0077b5;
+    margin: 0 4px;
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    transition: transform 0.2s ease;
+}
+
+a:hover .linkedin-icon {
     transform: scale(1.1);
 }
